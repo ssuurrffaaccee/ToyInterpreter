@@ -1,0 +1,8 @@
+digraph {
+N3[label="Diff"];
+Program->N3;
+N4[label="Const_10"];
+N5[label="Const_20"];
+N3->N4;
+N3->N5;
+}

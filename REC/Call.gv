@@ -1,0 +1,26 @@
+digraph {
+N46[label="Let"];
+Program->N46;
+N47[label="Var_x"];
+N48[label="Proc"];
+N49[label="Call"];
+N46->N47;
+N46->N48;
+N46->N49;
+N50[label="Var_x"];
+N51[label="Diff"];
+N48->N50;
+N48->N51;
+N52[label="Const_1"];
+N53[label="Var_x"];
+N51->N52;
+N51->N53;
+N54[label="Var_x"];
+N55[label="Mul"];
+N49->N54;
+N49->N55;
+N56[label="Const_2"];
+N57[label="Const_3"];
+N55->N56;
+N55->N57;
+}

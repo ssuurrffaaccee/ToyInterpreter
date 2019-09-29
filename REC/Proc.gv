@@ -1,0 +1,12 @@
+digraph {
+N29[label="Proc"];
+Program->N29;
+N30[label="Var_x"];
+N31[label="Diff"];
+N29->N30;
+N29->N31;
+N32[label="Const_1"];
+N33[label="Var_x"];
+N31->N32;
+N31->N33;
+}

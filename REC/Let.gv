@@ -1,0 +1,20 @@
+digraph {
+N15[label="Let"];
+Program->N15;
+N16[label="Var_b"];
+N17[label="Const_20"];
+N18[label="Let"];
+N15->N16;
+N15->N17;
+N15->N18;
+N19[label="Var_a"];
+N20[label="Const_10"];
+N21[label="Diff"];
+N18->N19;
+N18->N20;
+N18->N21;
+N22[label="Var_a"];
+N23[label="Var_b"];
+N21->N22;
+N21->N23;
+}
